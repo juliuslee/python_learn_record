@@ -1,0 +1,11 @@
+{% extends "base1.html" %}
+
+{% block title %}The shuang se qiu {% endblock %}
+
+{% block content %}
+<h1><font size=3>随机为您生成的号码如下：</font></h1>
+<p><font color="0080ff">双色球的蓝色球是： <b>{{ blueball }}</b>.</font> </p>
+<p><font color="#ff0000">双色球的红色球集合是：<b> {{ redballs }}.</b></font></p>
+<hr>
+<h3>感谢您使用双色球随机生成工具，您可以使用<b>F5刷新</b>生成下一注号码</h3>
+{% endblock %}
